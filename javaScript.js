@@ -1,5 +1,5 @@
 alert("!!مرحبا بك في موقعي الذي سيحسب درجتك");
-let grade = 95;
+ grade = 95;
  grade= prompt(" اكتب درجتك بالأرقام")
 console.log("%cGrade", 'color: red; font-size: 70px;')
 if(grade>=90 && grade <=100) {
