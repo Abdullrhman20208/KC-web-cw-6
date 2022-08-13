@@ -1,5 +1,5 @@
 alert("!!مرحبا بك في موقعي الذي سيحسب درجتك");
- grade = 95;
+ let = grade = 95;
  grade= prompt(" اكتب درجتك بالأرقام")
 console.log("%cGrade", 'color: red; font-size: 70px;')
 if(grade>=90 && grade <=100) {
@@ -18,6 +18,7 @@ console.log ( "%cلقد حصلت على مقبول😕", 'color: red; font-size:
 if( grade >= 50 && grade <= 59 ) {
     console.log ( "%cلقد حصلت على ضعيف☹️"
     ,'color: red; font-size: 70px;' )
+
 }
 if( grade <50 ) {
     console.log ("%cراسب💔", 'color: red; font-size: 70px;')
